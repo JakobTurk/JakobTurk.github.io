@@ -1,0 +1,39 @@
+.jumbotron {
+	padding-top: 0px;
+	padding-bottom: 25px;
+}
+
+.game-content {
+	margin: auto;
+	width: 80%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+h1 {
+	padding-left: 40px;
+}
+
+h2 {
+	padding-top: 60px;
+	padding-left: 80px;
+}
+
+h3 {
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+h4 {
+	padding-left: 30px;
+	padding-bottom: 15px;
+	font-weight: normal;
+	font-size: 30px;
+}

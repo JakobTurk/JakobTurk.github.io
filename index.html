@@ -6,10 +6,191 @@
 
 		<!-- Bootstrap -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
 
 		<title>Jakob Turk's Portfolio</title>
 	</head>
 	<body>
-		<h1>Henlo vrld.</h1>
+	
+	<div class="alert alert-secondary">
+		<h1 class="display-1">Jakob Turk's portfolio</h1>
+	</div>
+	<h2 class="display-3">Game development</h2>
+	<hr>
+
+	<div class="game-content"><!-- game content -->
+
+	<!-- Pirates! -->
+	<div class="jumbotron">
+		<h3 class="display-4"><a href="https://gitlab.com/jakob_turk/pirates">Pirates</a></h3>
+		<p class="lead">Pirates is a 2D top-down game of explosive-projectile-shooting pirate ships duking it out in the middle of the sea</p>
+		<div class="alert alert-dark">
+			<div class="row">
+				<div class="col-sm">
+					<p>It is a game I decided to make for the purpose of learning to make a game without using an engine. What I did use was the SFML library.</p>
+					<p>The assets used are free assets from Kenney.nl
+					<p>Before starting the game I have carefully followed a tutorial about making the game Pong using SFML from the site https://www.gamefromscratch.com/. I reused many lessons I learned there in making this game. </p>
+					<p>It features MOBA-like controls and combat, SAT collision detection, a simple AI for computer controlled ships, A* pathfinding, tile-based maps and a simple system of animations.</p>
+
+					<!-- links -->
+					<div>
+						<a href="https://gitlab.com/jakob_turk/pirates">
+						<button type="button" class="btn btn-success">GitLab repository</button></a>
+						<a href="https://gitlab.com/jakob_turk/pirates/-/archive/master/pirates-master.zip">
+						<button type="button" class="btn btn-primary">Download for Windows</button></a>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<!-- The carousel -->
+					<div id="carouselPirates" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselPirates" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselPirates" data-slide-to="1"></li>
+					    <li data-target="#carouselPirates" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="screenshots/PiratesBattle1.png" class="d-block w-100" alt="Pirates schreenshot - battle 1">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/PiratesMenu.png" class="d-block w-100" alt="Pirates schreenshot - menu">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/PiratesBattle2.png" class="d-block w-100" alt="Pirates schreenshot - battle 2">
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselPirates" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselPirates" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div><!-- carousel -->
+				</div>
+			</div><!-- row -->
+
+		</div><!-- alert -- >
+
+	<!-- Kurent! -->
+		<h3 class="display-4">Kurent</h3>
+		<p class="lead">Kurent is a 3rd person adventure game where the player's task is to cleanse a winter landscape of snow</p>
+		<hr>
+		<p>The game was made for the class Računalniška grafika in teorija iger at Faculty of Computer and Information Science, University of Ljubljana. The game has two versions and it was made in a group together with Bibi Erjavec and Andraž Krašovec.</p>
+		<div class="alert alert-dark">
+
+			<div class="row"><h4><a href="https://github.com/Kurenti/Kurent">WebGL</a></h4></div>
+
+			<div class="row">
+				<div class="col-sm">
+					<p>The game was first made in JavaScript using WebGL. We didn't use any aditional engines or libraries, however the WebGL and shader code itself was product of closely following the class assistant Ciril Bohak's brilliant guides and lectures and certainly can't be called our own product.</p>
+					<p>Gameplay itself was implemented in JavaScript. The game features 3rd person camera and controls, a NPC that wanders around, a simple event system, circle collision and the main gameplay mechanic - snow. Dynamic snow is here implemented as a sheet of rectangles across the landscape that can dynamically move based on proximity to play - that is, all the snow moving and melting happens in JavaScript.</p>
+
+					<!-- links -->
+					<div>
+						<a href="https://github.com/Kurenti/Kurent">
+						<button type="button" class="btn btn-success">GitHub repository</button></a>
+						<a href="http://lgm.fri.uni-lj.si/ciril/rgti-2018-19/Kurent/">
+						<button type="button" class="btn btn-primary">Play in browser</button></a>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<!-- The carousel -->
+					<div id="carouselWebGLKurent" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselWebGLKurent" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselWebGLKurent" data-slide-to="1"></li>
+					    <li data-target="#carouselWebGLKurent" data-slide-to="2"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="screenshots/KurentWeb1.png" class="d-block w-100" alt="Kurent WebGL schreenshot 1">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/KurentWeb2.png" class="d-block w-100" alt="Kurent WebGL schreenshot 2">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/KurentWeb3.png" class="d-block w-100" alt="Kurent WebGL schreenshot 3">
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselWebGLKurent" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselWebGLKurent" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div><!-- carousel -->
+				</div>
+			</div><!-- row -->
+		</div>
+		<div class="alert alert-dark">
+
+			<div class="row"><h4><a href="https://github.com/Kurenti/UnityKurent">Unity</a></h4></div>
+
+			<div class="row">
+				<div class="col-sm">
+					<p>The second version of the game was made using Unity. Again no aditional libraries and plugins were used.</p>
+					<p>This time, I decided to implement dynamic snow using shaders. Starting inspiration was a tutorial "Snowtracks Shader" by Peter Olthof of Peer Play(@Youtube), a shader I heavily modified to work with our high poly model, but without tessalation (as I was writing the shader on a computer with a graphics card that didn't support tessalation).</p>
+					<p>This version of the game again features 3rd person camera, fluid movement and animations, foliage that spawns up to a certain density around the player and snow that is beeing melted by a custom displacement shader.</p>
+
+					<!-- links -->
+					<div>
+						<a href="https://github.com/Kurenti/UnityKurent">
+						<button type="button" class="btn btn-success">GitHub repository</button></a>
+						<button type="button" class="btn btn-primary" disabled>Downloadable game for windows available in repository</button>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<!-- The carousel -->
+					<div id="carouselUnityKurent" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselUnityKurent" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselUnityKurent" data-slide-to="1"></li>
+					    <li data-target="#carouselUnityKurent" data-slide-to="2"></li>
+					    <li data-target="#carouselUnityKurent" data-slide-to="3"></li>
+					    <li data-target="#carouselUnityKurent" data-slide-to="4"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img src="screenshots/KurentUnity0.png" class="d-block w-100" alt="Kurent Unity screenshot 1">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/KurentUnity1.png" class="d-block w-100" alt="Kurent Unity screenshot 2">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/KurentUnity2.png" class="d-block w-100" alt="Kurent Unity screenshot 3">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/KurentUnity3.png" class="d-block w-100" alt="Kurent Unity screenshot 4">
+					    </div>
+					    <div class="carousel-item">
+					      <img src="screenshots/KurentUnity4.png" class="d-block w-100" alt="Kurent Unity screenshot 5">
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselUnityKurent" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselUnityKurent" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div><!-- carousel -->
+				</div>
+			</div><!-- row -->
+		</div>
+	</div>
+	</div><!-- /game content -->
+
+	<!-- SCRIPTS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 	</body>
 </html>
