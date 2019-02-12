@@ -1,0 +1,118 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#canvas {
+    border: 1px solid black;
+}
+
+#container {
+    margin: auto;
+    max-width: 1240px;
+}
+
+.title {
+    text-align: center;
+    font-size: 20px;
+}
+
+.signature {
+    text-align: right;
+}
+
+#menu-container {
+    position: relative;
+}
+
+#menuOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    color: white;
+    font-size: 32px;
+    display: none;
+
+}
+
+#loadOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    color: white;
+    font-size: 32px;
+    display: none;
+}
+
+#pauseOverlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: black;
+    opacity: 0.7; /*ok so that can't be overriden it seems...*/
+    color: white;
+    font-size: 32px;
+    display: none;
+}
+
+.gameTitle {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.menu-item {
+}
+
+.myButton {
+    width: 200px;
+    height: 80px;
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background-color:#77d42a;
+    border:1px solid #268a16;
+    cursor:pointer;
+    color:#306108;
+    font-size:30px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #aade7c;
+    text-align: center;
+    line-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    margin-bottom: 20px;
+}
+.myButton:hover {
+    background-color:#5cb811;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+#hints {
+    position: absolute;
+    left: 350px;
+    top: 20px;
+    color: white;
+    font-size: 24px;
+    display: none;
+}
+
+.buttonOne {
+    position: absolute;
+    left: 520px;
+    top: 30px;
+}
+
+.buttonTwo {
+    position: absolute;
+    left: 520px;
+    top: 170px;
+}

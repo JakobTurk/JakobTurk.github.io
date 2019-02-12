@@ -8,6 +8,14 @@
 	width: 80%;
 }
 
+.btn {
+	margin-top: 10px;
+}
+
+.carousel {
+	margin-top: 10px;
+}
+
 a {
 	text-decoration: none;
 	color: black;
@@ -33,7 +41,7 @@ h3 {
 
 h4 {
 	padding-left: 30px;
-	padding-bottom: 15px;
+	padding-bottom: 5px;
 	font-weight: normal;
 	font-size: 30px;
 }
